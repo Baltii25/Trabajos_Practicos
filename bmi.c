@@ -9,8 +9,16 @@ float Result;
 
 	printf("Introduce tu peso en kilogramos: ");
 	scanf("%f", &Weight);
+	while(Weight<=0){
+		printf("El número debe ser positivo, ingresalo de nuevo: ");
+		scanf("%f", &Weight);
+	}
 	printf("Introduce tu altura en metros: ");
 	scanf("%f", &Height);
+	while(Height<=0){
+		printf("El número debe ser positivo, ingresalo de nuevo: ");
+		scanf("%f", &Height);
+	}
 	Result = Weight/(Height*Height);
 
 	printf("Tu indice BMI es de %.2f\n\n", Result);
