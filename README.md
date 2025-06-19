@@ -1,4 +1,4 @@
 Trabajos Prácticos
-1. BMI.c
-2. Calificacion.c
-3. Calif_prom.c
+1. BMI.c TP3
+2. Calificacion.c TP4
+3. Calif_prom.c TP5
