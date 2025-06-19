@@ -27,3 +27,4 @@ int main(){
 	printf("\nLa menor nota fue: %d", min);
 	return 0;
 }
+//Link del repositorio: https://github.com/Baltii25/Trabajos_Practicos
